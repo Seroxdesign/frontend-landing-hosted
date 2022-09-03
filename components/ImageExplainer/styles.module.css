@@ -1,0 +1,9 @@
+.container{
+  padding: 1em;
+  background-color: #222;
+  border-radius: 12px;
+  display: grid;
+  grid-template-rows: 80% 20%;
+}
+
+

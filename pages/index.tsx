@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -27,10 +28,10 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <Link href="/rules" className={styles.card}>
             <h2>Rules &rarr;</h2>
             <p>Find in-depth information about Conaways Game of Life</p>
-          </a>
+          </Link>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Game &rarr;</h2>
@@ -71,3 +72,4 @@ const Home: NextPage = () => {
 }
 
 export default Home
+

@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://frontend-landing-hosted.vercel.app/rules" target={"_blank"} className={styles.card}>
+          <a href="https://frontend-landing-hosted.vercel.app/rules" rel="noreferrer" target={"_blank"} className={styles.card}>
             <h2>Rules &rarr;</h2>
             <p>Find in-depth information about Conaways Game of Life</p>
           </a>

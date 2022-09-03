@@ -28,12 +28,10 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/rules" className={styles.card}>
-             <div>
+          <a href="https://frontend-landing-hosted.vercel.app/rules" target={"_blank"} className={styles.card}>
             <h2>Rules &rarr;</h2>
             <p>Find in-depth information about Conaways Game of Life</p>
-            </div>
-          </Link>
+          </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Game &rarr;</h2>
